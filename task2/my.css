@@ -1,0 +1,222 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width:100%;
+    height:100px;   
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left:8%;
+    padding-top: 45px;
+    padding-right: 8%;
+    justify-content: space-between;
+}
+.logo{
+    color:black;
+    font-size: 37px;
+    font-family: stencil;
+    letter-spacing: 1px;
+}
+.ima{
+    display:flex;
+    height: 100vh;
+    width:100%;
+    align-items:stretch;
+    background-color:crimson;   
+}
+.ima img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-color: black;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    font-family: stencil;
+}
+nav ul li a:hover{
+    color:rgb(199, 22, 22);
+    transition: 0.4s;
+} 
+.name{
+    position:absolute;
+    top:50%;
+    right: 30%;
+    transform: translateY(-50%);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    animation:alternate;
+}
+.name button{
+    background-color: black;
+    border-radius: 30px;
+    font-size: 25px;
+    color:aliceblue;
+    border-width: 15px;
+}
+.name button:hover{
+    color:crimson;
+    transition: 0.4s; 
+}
+.about{
+    width:100%;
+    padding:50px 0px;  
+    background-color:crimson;
+    
+}
+.box-s{
+    box-shadow: .75rem .75rem 1em;
+    width:90%;
+    height:90%;
+    padding:90px;
+    margin-left: 70px;
+}
+.about h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.about-me{
+    width:1100px;
+    max-width:100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+.about-me p{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills{
+    background-color: crimson;
+    width: 100%;
+    padding: 100px 0px;
+}
+.ski h2{
+    font-size: 50px;
+    width:1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.b1{
+    height: 300px;
+    width: 320px;
+    padding: 45px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.b1 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+h5{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h5:hover{
+    color:crimson;
+    transition: 0.4s;  
+}
+.box button{
+    background-color: black;
+    border-radius: 30px;
+    font-size: 16px;
+    color:aliceblue;
+    border-width: 8px;
+}
+.box button:hover{
+    color:crimson;
+    transition: 0.4s; 
+}
+.contact{
+    width: 100%;
+    background-color: crimson;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:40px;
+    margin-bottom: 15px;
+}
+.contact p{
+    font-size: 25px;
+    font-weight:500;
+}
+.contact a{
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background-color:whitesmoke;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 25px;
+    width:550px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.icons a{
+    color: black;
+    display: flex;
+    font-size: 40px;
+    margin: 12px;
+}
+a:hover{
+    color:crimson;
+    transition: 0.4s;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
