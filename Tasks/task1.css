@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navi{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin:auto;
+    position:fixed;
+    left: 0px;
+    top:0px;
+    width:100%;
+    z-index: 100;
+    background-color: antiquewhite;
+    border: 1px solid orange;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    margin: 5px;
+    padding:5px 20px;
+    color: darkblue;
+    font-weight: 500;
+    opacity: 0.3;
+    transition: all ease 0.3s;
+    font-size: 20px;
+    font-family: Segoe UI Semibold;
+    font-weight: bold;
+}
+.menu .dark{
+    opacity: 1;
+}
+.menu li a:hover{
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.craft img{
+    float:left;
+    height:100px;
+    width:200px;
+}
+.r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r a{
+    margin: 0px 10px;
+}
+.r a i{
+    color:darkblue;
+}
+.r a:hover i{
+    color:blue;
+    transition: all ease 0.2s;
+}
+#m{
+    background-color: white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+.m-c{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:80%;
+    margin:20px auto;
+}
+.m-imag{
+    height: 500px;
+    width: 550px;
+}
+.m-imag img{
+    width:110%;
+    height:100%;
+    object-position: center;
+    object-fit:fill;
+} 
+.m-t{
+    max-width: 100px;
+    max-inline-size: 500px;
+}
+.m-t span{
+    font-weight: 600;
+    color: goldenrod;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+}
+.m-t h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+.m-t p{
+    color:black;
+    margin:20px 0px;
+}
+.m-t a{
+    width: 180px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    color:white;
+    background-color: purple;
+    border-radius: 10px;
+
+}
+.m-t a:hover{
+    background-color:orange;
+    color:white;
+    transition: all ease 0.3s;
+}
+#p{
+    background-color: white;
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    margin-top:0px;
+    justify-content:center;
+    flex-direction: column;
+}
+#p h2{
+    text-transform: uppercase;
+    color: darkblue;
+    justify-content: center;
+    text-shadow: 20px;
+    font-family:Segoe UI Semibold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+#p h8{
+    justify-content: center;
+    font-family:Segoe UI Semibold;
+    font-size: 15px;
+    text-align:justify;
+    position:relative;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.p-c{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:80%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding: 20px 0px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.p-c{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.p-c-s{
+    height:450px;
+    width:400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    background-color: white;
+
+}
+.p-imag1 img{
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    object-position: center;
+}
+.p-imag2 img{
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    object-position: center;
+
+}
+.p-imag3 img{
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    object-position: center;
+
+}
+.p-t{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-t h5{
+    color:goldenrod;
+}
+.p-t a{
+    width: 95px;
+    height:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    color:white;
+    background-color: purple;
+    border-radius: 10px;
+
+}
+.more{
+    padding-left: 1100px;
+}
+.more a{
+    width: 150px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    color:white;
+    background-color: purple;
+    border-radius: 10px;
+}
+.more a:hover{
+    background-color:orange;
+    color:white;
+    transition: all ease 0.3s;
+}
+.p-t a:hover{
+    background-color:orange;
+    color:white;
+    transition: all ease 0.3s;
+}
+
+footer{
+    background-color: whitesmoke;
+    padding: 60px 10px;
+    position: relative;
+    margin-top: 20px;
+    border-top: 1px solid white;
+}
+.f-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:85%;
+    margin: 10px auto;
+}
+.f-l img{
+    height:100px;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}    
+.f-l-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-l-c span{
+    color: black;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+.f-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-s a{
+    margin: 0px 6px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    border:1px solid whitesmoke;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-s a:hover{
+    background-color: gold;
+    color:white;
+    transition: all ease 0.3s;
+}
+
+
+
+
+
+
